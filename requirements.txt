@@ -1,0 +1,7 @@
+# The core package runs on the Python standard library alone.
+# Everything below is optional and enables an extra capability.
+
+numpy>=1.24            # accelerates the vector index (pure-Python fallback exists)
+redis>=5.0             # only for backend="redis"
+sentence-transformers  # only for embedding_backend="sbert" (local embeddings)
+pytest>=7.0            # only for running tests/
