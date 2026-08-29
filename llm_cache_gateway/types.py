@@ -1,7 +1,6 @@
 """Data structures shared by every layer of the gateway."""
 
 from __future__ import annotations
-
 import time
 import uuid
 from dataclasses import dataclass, field, asdict
